@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>House Of Locals</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inside">
+            <div class="header">
+                <div class="headerpart1">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                    <a href="#">Shop</a>
+                </div>
+                <div class="headerpart2">
+                    <img src="./1.png" alt="">
+                </div>
+                <div class="headerpart3">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#">Login</a>
+                    <a href="#">Cart</a>
+                </div>
+            </div>
+
+            <div class="table">
+                <div class="tableleft">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./2.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./6.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./3.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./4.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./5.jpg" alt=""></div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+
+                <div class="tableright">
+                    <p>Table</p>
+                    <h1>Round Tea Table</h1>
+                    <p>This Table Seamlessly Combines Traditional Craftsmanship With <br> Modern Design, Offering The
+                        Perfect Centerpiece For Your Tea <br> Gatherings. Sourced Responsibly, The Materials Used
+                        Reflect Our <br> Commitment To Sustainability, Making It A Conscious Choice For <br> Your Home
+                        Decor.</p>
+
+                    <div class="price">
+                        <div class="priceleft">
+                            <h3>$2870 &nbsp; <span class="three">$3000</span> </h3>
+                        </div>
+                        <div class="priceright">
+                            <button>15% Off</button>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+
+
+                    </div>
+                    <div class="button">
+                        <button class="button1"> - &nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;+</button>
+                        <button class="button2">Add To Cart</button>
+                    </div>
+                    <p class="paragraph"><i class="fa-solid fa-credit-card"></i>&nbsp;&nbsp;We accept payment from every
+                        major card providers</p>
+                    <p class="paragraph"><i class="fa-solid fa-truck-fast"></i>&nbsp;&nbsp;Free delivery from orders
+                        above $1200</p>
+
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="box1">
+                    <h1>Product Description</h1>
+                </div>
+                <div class="box2">
+                    <h1>Technical Details</h1>
+                </div>
+                <div class="box3">
+                    <h1>Enquiry</h1>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
